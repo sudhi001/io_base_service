@@ -1,4 +1,5 @@
-module sudhi001/io_base_service
+module github.com/sudhi001/io_base_service
+
 
 go 1.23.4
 
