@@ -35,3 +35,8 @@ func Nil(t *testing.T, object interface{}, msgAndArgs ...interface{}) bool {
 func NotNil(t *testing.T, object interface{}, msgAndArgs ...interface{}) bool {
 	return assert.NotNil(t, object, msgAndArgs...)
 }
+
+// NotEmpty checks that an object is not empty
+func NotEmpty(t *testing.T, object interface{}, msgAndArgs ...interface{}) bool {
+	return assert.NotEmpty(t, object, msgAndArgs...)
+}
